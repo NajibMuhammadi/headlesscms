@@ -13,6 +13,10 @@ git clone https://github.com/PaulBratslavsky/astro-strapi-example-project.git
 In the root directory, run:
 
 ```bash
+npm install --global yarn
+```
+
+```bash
 yarn setup
 ```
 
