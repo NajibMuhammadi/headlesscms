@@ -3,10 +3,15 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface BlocksCardGrid extends Struct.ComponentSchema {
   collectionName: 'components_blocks_card_grids';
   info: {
+    description: '';
     displayName: 'Card Grid';
   };
   attributes: {
     card: Schema.Attribute.Component<'shared.card', true>;
+    cardtest1: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
   };
 }
 
